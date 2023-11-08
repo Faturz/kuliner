@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: url(img/order-bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background: #161616cd;
+    backdrop-filter: blur(8px);
+    margin: 4rem 20rem;
+    box-shadow: 0px 0px 20px 0px #000000;
+    /* margin-right: 10rem;
+    margin-left: 10rem; */
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.section {
+    color: #fff;
+    /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+}
+
+.wSec h1 {
+    margin: 40px;
+    text-align: center;
+}
+
+.wSec input {
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 7px 0px #0000004f;
+    display: block;
+    padding: 15px;
+    width: 50%;
+    background: #ffffff26;
+    margin-top: 8px;
+    border-radius: 20px;
+    margin-left: 22%;
+    margin-bottom: 20px;
+}
+
+.wSec i {
+    position: absolute;
+    color: #fff;
+    margin-top: -53px;
+    margin-left: 13%;
+    font-size: 20px;
+}
+
+.wSec {
+    /* padding: 20px; */
+    margin: 30px;
+}
+
+.wBtn {
+    text-align: center;
+}
+
+.wSec button {
+    margin: 4px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #fce700cc;
+    transition: 0.4s;
+}
+.wSec a {
+    text-decoration: none;
+    color: #000;
+}
+
+.wSec button:hover {
+    background: #fff;
+    transform: scale(1.08);
+}
