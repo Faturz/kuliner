@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap'); 
 
 * {
@@ -463,4 +464,471 @@ body {
         background: #fff;
     }
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: #000;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    background: #000;
+    padding: 1.25rem;
+}
+
+.navbar {
+    z-index: 10000;
+    color: #fff;
+    padding: 40px;
+    top: 0;
+    background: #21212135;  
+    width: 63%;
+    border-radius: 20px;
+    margin: 30px;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    box-shadow: 0px 5px 40px -3px #ffffff0e;
+}
+
+
+.wrapperNav {
+    display: flex;
+    gap: 20rem;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    cursor: pointer;
+    color: #ffef0d;
+    font-size: 25px;
+}
+
+.contentNav ul {
+    margin-top: 5px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.contentNav a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.8s;
+}
+
+.contentNav a:hover,
+.contentNav.actived {
+    color: #ffef0d;
+}
+
+
+
+
+/* home slideshow */
+
+
+
+.header {
+    color: #fff;
+    text-align: center;
+    padding-top: 15rem;
+}
+
+
+.header h1 {
+    color: #ffef0d;
+}
+
+.header button {
+    margin: 40px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.4s;
+    background: #ffef0d;
+}
+
+.headBtn {
+    color: #000;
+    text-decoration: none;
+}
+
+.header button:hover {
+    background: #fff;
+    scale: 1.08;
+}
+
+.desc {
+    background: #ffef0d;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    color: #000;
+    margin-inline: 20rem;
+}
+
+.slideshow-container {
+    padding-top: 4rem;
+    margin-top: 10rem;
+    max-width: 40%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  .mySlides img {
+    margin-left: -37px;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    left: 0;
+    border-radius: 4px;
+    width: auto;
+    /* margin-top: 4rem; */
+    margin: 50px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    border-radius: 8px;
+    background-color: #fce700cc;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    /* font-size: 10px; */
+    padding: 20px;
+    /* position: absolute; */
+    background: #0000007a;
+    bottom: 3px;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  
+  .numbertext {
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    /* position: absolute; */
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+  /* img menu */
+
+
+
+
+.imgMenu-1 {
+    margin-top: 5rem;
+    text-align: left;
+    display: flex;
+}
+
+.menu img {
+    
+    /* width: 50%; */
+    border-radius: 20px;
+}
+
+.njr {
+    position: absolute;
+    left: 100rem;
+}
+
+.pgMenu {
+    color: #fff;
+    margin: 40px;
+}
+
+.pgMenu p {
+    margin-top: 10px;
+}
+
+.imgMenu-2 {
+    margin-top: 5rem;
+    text-align: end;
+    display: flex;
+}
+
+.help {
+    background: #212121;
+    margin: 40px;
+    border-radius: 40px;
+    color: #fff;
+    padding: 80px;
+    margin-top: 20rem;
+    text-align: center;
+}
+
+.help h1 {
+    margin: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.help button {
+    border: none;
+    background: #ffef0d;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.4s;
+}
+
+.help a {
+    color: #000;
+    text-decoration: none;
+}
+
+.help a:hover {
+    color: #000;
+}
+
+.help button:hover {
+    transform: scale(1.08);
+    background: #fff;
+}
+
+.footer {
+    background: #000000;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer i {
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.btnMenu button {
+    border: none;
+    background: #ffef0d;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+
+.btnMenu a {
+    color: #000;
+    text-decoration: none;
+}
+
+.btnMenu a:hover {
+    color: #000;
+}
+
+.btnMenu button:hover {
+    transform: scale(1.08);
+    background: #fff;
+}
+
+
+
+@media screen and (max-width:768px) {
+    body {
+        margin: 1.25rem;
+    }
+    .navbar {
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        top: 0;
+        width: 63%;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    .logo {
+        opacity: 0;
+    }
+
+    .contentNav {
+        left: 3rem;
+        position: absolute;
+    }
+
+    .home {
+        display: block;
+    }
+
+    .mySlides img {
+        width: 250%;
+        margin-left: -160px;
+        padding: 80px;
+        align-items: center;
+    }
+
+    .text {
+        margin-left: -20px;
+    }
+    
+    .next {
+        rotate: 90;
+        margin-right: 20px;
+    }
+    
+    .prev {
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+
+    .imgMenu-1,.imgMenu-2 {
+        margin-top: 5rem;
+        text-align: center;
+        display: block;
+    }
+    
+    .hdn {
+        position: absolute;
+        left: 100rem;
+    }
+
+    .menu img {
+        width: 250px;
+        align-items: center;
+        /* width: 50%; */
+        border-radius: 20px;
+    }
+    
+    .pgMenu {
+        color: #fff;
+        margin: 40px;
+    }
+    
+    .pgMenu p {
+        margin-top: 10px;
+    }
+
+    .desc {
+        font-size: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        align-items: center;
+        margin-inline: 10px;
+    }
+
+    .footer {
+        background: #000000;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .footer i {
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .help {
+        background: #212121;
+        margin: 10px;
+        border-radius: 40px;
+        color: #fff;
+        padding: 30px 10px;
+        margin-top: 10rem;
+        text-align: center;
+    }
+    
+    .help h1 {
+        margin: 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .help button {
+        border: none;
+        background: #ffef0d;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 20px;
+        transition: 0.4s;
+    }
+    
+    .help a {
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .help a:hover {
+        color: #000;
+    }
+    
+    .help button:hover {
+        transform: scale(1.08);
+        background: #fff;
+    }
+
+>>>>>>> 169f02f (responsive)
 }
